@@ -16,3 +16,5 @@ let g:Tex_compileRule_ps = 'ps2pdf $*'
 let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
 let g:Tex_DefaultTargetFormat='pdf'
 colorscheme molokai
+map j gj
+map k gk
