@@ -1,6 +1,5 @@
 if has("gui_running")
     syntax on
-    colorscheme darkblue
 endif
 execute pathogen#infect()
 set number
@@ -16,4 +15,4 @@ let g:Tex_CompileRule_dvi = 'latex -interaction=nonstopmode $*'
 let g:Tex_compileRule_ps = 'ps2pdf $*'
 let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
 let g:Tex_DefaultTargetFormat='pdf'
-
+colorscheme molokai
